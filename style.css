@@ -1,0 +1,419 @@
+/* default css */
+
+body,h1,h2,h3,h4,h5,h6,p,span,a{
+    font-family: 'Work Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* header */
+
+.s-header a.navbar-brand {
+    font-size: 29px;
+    font-weight: 500;
+}
+.jon-menu a.nav-link.active {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    font-size: 18px;
+}
+
+
+.s-header span {
+    display: inline-block;
+    background-color: #6278DF;
+    color: white;
+    height: 53px;
+    width: 48px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+    right: 10px;
+}
+
+.button-1{
+    font-weight: bold;
+}
+
+/* slider */
+
+.slider{
+    background: url(./img/mbr-10.jpg) no-repeat center center;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+}
+
+
+.slider::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.slider_text h2{
+    font-size: 45px;
+}
+
+.slider_text input.form-control.form-control-lg {
+    padding: 15px;
+}
+
+.slider_text button.btn.btn-info.btn-lg.btn-block {
+    padding: 15px;
+    font-weight: bold;
+    background-color: #5BA532;
+}
+
+.slider_text button.btn.btn-info.btn-lg.btn-block:hover {
+    background-color: #fff;
+    color: #0D6EFD;
+    box-shadow: 1px 1px 13px 0px #0d6efd;
+    outline: none;
+    border: 1px solid #0d6efd;
+}
+
+
+
+/* price */
+
+.price span{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.price p{
+    font-size: 22px;
+}
+
+/* activity */
+.activity{
+    background-color: #F7F9FF;
+}
+
+.activity_text{
+    padding-top: 110px;
+}
+
+.activity_text h2 {
+    font-size: 45px;
+}
+
+.activity_text p {
+    font-size: 22px;
+    padding-top: 19px;
+}
+
+.learn_heading h1{
+    font-size: 47px;
+}
+
+.learn_heading p {
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.features_item{
+    height: 250px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    transition: .4s;
+    
+}
+
+.features_item:hover{
+    box-shadow: 15px 15px 25px 10px rgba(64,87,191,0.1);
+}
+
+.left_image{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.right_text{
+    width: 60%;
+    padding: 10px;
+}
+
+.left_image img {
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -80px;
+}
+
+.img_2 img{
+    position: relative;
+    left: -50px;
+}
+
+.img_3 img {
+    position: relative;
+    left: -16px;
+}
+
+.img_4 img {
+    position: relative;
+    left: -107px;
+}
+
+.img_5 img {
+    position: relative;
+    left: -47px;
+}
+
+/* application */
+
+.app_text h1{
+    font-size: 55px;
+    padding-bottom: 40px;
+}
+
+.app_img{}
+.app_img a{
+    position: relative;
+    display: block;
+}
+.app_img a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(98, 120, 223,.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.app_img:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* pricing */
+
+.pricing_section{
+    background-color: #F7F9FF;
+}
+
+.pri_text h1{
+    font-size: 55px;
+}
+
+.pri_text p{
+    font-size: 24px;
+}
+
+.pricing_item{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px ;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    width: 500px;
+    height: 610px;
+    margin: auto;
+}
+.pricing_item h1{
+    font-size: 50px;
+}
+.pricing_item p {
+    font-size: 20px;
+    padding:20px 0;
+}
+.pricing_item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.pricing_item ul li{
+    color: #777;
+    padding: 15px 0;
+    font-size: 22px;
+}
+.pricing_item ul li span i{
+   
+}
+
+.pricing_item ul li span i{
+    color: #6278DF;
+    font-size: 30px;
+    width: 37px;
+}
+.pri-bt{
+    margin-top: 32px;
+}
+
+/* testimonial */
+
+.testimonial_section span{
+    font-size: 27px;
+}
+
+
+.testimonial_section h1 {
+    font-size: 45px;
+    padding-top: 20px;
+}
+
+.tes_icon i {
+    font-size: 95px;
+    color: #F0F0F0;
+}
+
+.testimonial_item p {
+    font-size: 21px;
+    width: 812px;
+    margin: auto;
+    color: #CFCFCF;
+}
+
+.user_img img{
+    width: 80px;
+}
+
+.user_img{
+    width: 200px;
+}
+
+.user_info {
+    width: 240px;
+    position: relative;
+    top: 12px;
+}
+
+.user_info p {
+    width: 127px;
+    font-size: 18px;
+}
+
+.user_info h4{
+    font-size: 20px;
+}
+
+/* team */
+
+.team{
+    background-color: #F7F9FF;
+}
+
+.about_person .card{
+    padding: 20px;
+}
+
+.card img {
+    width: 140px;
+    margin-top: -94px;
+}
+
+.person{
+    margin-top: 150px;
+}
+
+.card-body p{
+    font-size: 15px;
+}
+
+.card-body{
+    border: none;
+}
+
+.card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+
+/* contact */
+
+.con_head{
+    font-size: 45px;
+}
+
+.s-form{
+    padding: 20px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+
+.area_t{
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+/* app */
+
+.app p{
+    font-size: 25px;
+}
+.app h1 {
+    font-size: 46px;
+    padding: 20px 0;
+}
+
+.app_btn_1{
+    padding: 20px 25px;
+}
+
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #5BA533;
+    border-color: #5BA533;
+    box-shadow: 2px 2px 20px 0 #5BA533;
+}
+
+.app_btn_1 {
+    padding: 15px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5BA533;
+    border: 2px solid;
+    margin: 0 15px;
+}
+
+.app_btn_2{
+    padding: 17px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border: 2px solid;
+    background-color: #5BA533;
+    border: none;
+    box-shadow: 2px 2px 20px 0 #5BA533;
+}
+
+.app_btn_2:hover{
+    background-color: black;
+    color: white;
+    box-shadow: none;
+}
+/* footer */
+
+.footer{
+    background-color: #F7F9FF;
+}
+
+
+.copy {
+    font-size: 22px;
+    position: relative;
+    top: 10px;
+}
+
+.copy span{
+    color: #777;
+    transition: .4s;
+}
+
+.copy span:hover{
+    color: black;
+}
